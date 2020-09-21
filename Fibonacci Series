@@ -1,0 +1,16 @@
+#Fibonacci Series
+
+
+print("###Fibonacci Series###")
+print("Put value of n which should be positive")
+n = int(input("Enter the number :"))
+if(n<0):
+    print("PUT A POSTIVE NUMBER")
+else: print("FIBONACCI SERIES")
+num = 0
+num1 = 1
+while num<=n:
+       print(num)
+       n3 = num + num1
+       num = num1 
+       num1 = n3
