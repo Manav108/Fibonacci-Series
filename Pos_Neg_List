@@ -1,0 +1,18 @@
+#To check whether number is positive or negative
+
+mylist =[]
+n = int(input("Enter the number of element :"))
+i=0
+for i in range(i, n):
+    ele = int(input("Enter elements :"))
+    mylist.append(ele)
+   
+    
+m=0
+ele = []
+for m in range (0 , n):
+    if (mylist[m]>0):
+        ele.append(mylist[m])
+ 
+print("Your Input Number : " , mylist)
+print("Your Output Number : " , ele)
